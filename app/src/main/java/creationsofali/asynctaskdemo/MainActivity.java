@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
             //Setting results after a complete execution of the task
             progressDialog.dismiss();
             tvAfterTask.setText(s);
+            etSleepTime.setText(""); //Clear the EditText (input) field
         }
     }
 }
